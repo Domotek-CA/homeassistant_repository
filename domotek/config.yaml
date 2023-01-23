@@ -1,0 +1,26 @@
+{
+  "image": "docker.io/domotek/homeassistant_addon",
+  "name": "Domotek",
+  "slug": "domotek",
+  "description": "Enable link from this instance to Domotek's services",
+  "version": "1.0.0",
+  "url": "https://domotek.ca",
+  "ingress": true,
+  "homeassistant_api": true,
+  "hassio_api": true,
+  "panel_icon": "mdi:folder-wrench",
+  "init": false,
+  "boot": "auto",
+  "arch": [
+    "amd64"
+  ],
+  "options": {
+    "id": "id",
+    "token": "token"
+  },
+  "schema": {
+    "id": "str",
+    "token": "str"
+  }
+}
+
