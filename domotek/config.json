@@ -1,9 +1,9 @@
 {
   "image": "docker.io/domotek/homeassistant_addon",
+  "version": "2023.1.1",
   "name": "Domotek",
   "slug": "domotek",
   "description": "Enable link from this instance to Domotek's services",
-  "version": "edge",
   "url": "https://domotek.ca",
   "ingress": true,
   "homeassistant_api": true,
@@ -23,4 +23,3 @@
     "token": "str"
   }
 }
-
