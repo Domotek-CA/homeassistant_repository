@@ -3,7 +3,7 @@
   "name": "Domotek",
   "slug": "domotek",
   "description": "Enable link from this instance to Domotek's services",
-  "version": "1.0.0",
+  "version": "edge",
   "url": "https://domotek.ca",
   "ingress": true,
   "homeassistant_api": true,
